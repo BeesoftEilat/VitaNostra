@@ -1,0 +1,8 @@
+{
+  "title": "Efi App",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "tabris": "1.9.0"
+  }
+}

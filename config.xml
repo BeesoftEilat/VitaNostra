@@ -1,0 +1,51 @@
+<?xml version='1.9.0' encoding='utf-8'?>
+<widget id="com.beesoft.VitaNostra" version="1.0">
+  <name>Vita Nostra - ויטה נוסטרה</name>
+  <description>
+  </description>
+  <author email="info@beesoft.co.il">
+    Tabris.js developer
+  </author>
+  <resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="Theme.Sandbox" parent="@style/Theme.Tabris.Light.DarkActionBar">
+        <item name="colorPrimary">#222222</item>
+        <item name="colorPrimaryDark">#0d0d0d</item>
+    </style>
+   </resources>
+
+   <platform name="ios">
+        <!-- iOS 8.0+ -->
+        <icon src="icons/Icon-60@3x.png" width="180" height="180" />
+        <!-- iOS 7.0+ -->
+        <!-- iPhone / iPod Touch  -->
+        <icon src="icons/Icon-60.png" width="60" height="60" />
+        <icon src="icons/Icon-60@2x.png" width="120" height="120" />
+        <!-- iPad -->
+        <icon src="icons/Icon-76.png" width="76" height="76" />
+        <icon src="icons/Icon-76@2x.png" width="152" height="152" />
+        <!-- iOS 6.1 -->
+        <!-- Spotlight Icon -->
+        <icon src="icons/Icon-Spotlight-40.png" width="40" height="40" />
+        <icon src="icons/Icon-Spotlight-40@2x.png" width="80" height="80" />
+        <!-- iPhone / iPod Touch -->
+        <icon src="icons/Icon.png" width="57" height="57" />
+        <icon src="icons/Icon@2x.png" width="114" height="114" />
+        <!-- iPad -->
+        <icon src="icons/Icon-72.png" width="72" height="72" />
+        <icon src="icons/Icon-72@2x.png" width="144" height="144" />
+        <!-- iPhone Spotlight and Settings Icon -->
+        <icon src="icons/Icon-Small.png" width="29" height="29" />
+        <icon src="icons/Icon-Small@2x.png" width="58" height="58" />
+        <!-- iPad Spotlight and Settings Icon -->
+        <icon src="icons/Icon-50.png" width="50" height="50" />
+        <icon src="icons/Icon-50@2x.png" width="100" height="100" />
+    </platform>
+ 
+    <platform name="android">
+        <icon src="icons/drawable-mdpi/ic_launcher.png" density="mdpi" />
+        <icon src="icons/drawable-hdpi/ic_launcher.png" density="hdpi" />
+        <icon src="icons/drawable-xhdpi/ic_launcher.png" density="xhdpi" />
+        <icon src="icons/drawable-xxhdpi/ic_launcher.png" density="xxhdpi" />
+        <icon src="icons/drawable-xxxhdpi/ic_launcher.png" density="xxxhdpi" />
+    </platform>
+</widget> 
